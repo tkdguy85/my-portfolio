@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 /* TODO - Update Theme and Colors to my liking */
 
 @theme {
@@ -12,7 +13,7 @@
 
   /* Animations */
   --animate-float: float 6s ease-in-out infinite;
-  --animate-pulse-subtle: pulse-subtle 4s ease-in-out infinite;
+  --animate-pulse-subtle: pulse-subtle 5s ease-in-out infinite;
   --animate-fade-in: fade-in 0.7s ease-out forwards;
   --animate-fade-in-delay-1: fade-in 0.7s ease-out 0.2s forwards;
   --animate-fade-in-delay-2: fade-in 0.7s ease-out 0.4s forwards;
@@ -36,7 +37,7 @@
       opacity: 1; 
     }
     50% { 
-      opacity: 0.8; 
+      opacity: 0.2; 
     }
   }
 
@@ -53,14 +54,14 @@
 
   @keyframes meteor {
     0% {
-      transform: translateX(0) rotate(215deg);
+      transform: rotate(215deg) translateX(0);
       opacity: 1;
     }
     70% {
       opacity: 1;
     }
     100% {
-      transform: translateX(-500px) rotate(215deg);
+      transform: rotate(215deg) translateX(-500px);
       opacity: 0;
     }
   }
@@ -79,7 +80,7 @@
   }
 
   /* Dark Mode Scheme */
-  :dark {
+  .dark {
     --background: 222 47% 4%;
     --foreground: 213 31% 91%;
     --card: 222 47% 8%;
@@ -156,11 +157,13 @@
   @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95;
 }
 
+/* Background Stars */
 @utility star {
   @apply absolute bg-white rounded-full;
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
 }
 
+/* Meteor Effect */
 @utility meteor {
   @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full; /* Gradient effect for the meteor tail */
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);

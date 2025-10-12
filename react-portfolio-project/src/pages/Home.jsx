@@ -1,6 +1,7 @@
 import { ThemeToggle } from "../components/ThemeToggle"
 import { SpaceBackground } from "../components/SpaceBackground"
 import { NavBar } from "../components/NavBar"
+import { HeroSection } from "../components/HeroSection"
 // import { DayTimeBackground } from "../components/DayTimeBackground"
 
 export const Home = () => {
@@ -18,6 +19,9 @@ export const Home = () => {
     <NavBar />
 
     {/* Main Content */}
+    <main>
+      <HeroSection />
+    </main>
 
     {/* Footer */}
   </div>

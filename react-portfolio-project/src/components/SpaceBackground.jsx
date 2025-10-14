@@ -53,13 +53,14 @@ export const SpaceBackground = () => {
 
     setMeteors(newMeteors);
   }
-  
-  return <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
-    { stars.map((star) => (
-      <div 
-        key={star.id}
-        className="star animate-pulse-subtle"
-        style={{
+
+  return (
+    <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
+      { stars.map((star) => (
+        <div 
+          key={star.id}
+          className="star animate-pulse-subtle"
+          style={{
           width: `${star.size}px`, // Width and height based on star size
           height: `${star.size}px`, // Width and height based on star size
           left: `${star.x}%`, // Positioning based on random x and y
@@ -68,21 +69,22 @@ export const SpaceBackground = () => {
           animationDuration: `${star.animationDuration}s` // Animation duration based on random value
         }}
       />
-    ))}
+      ))}
 
-    { meteors.map((meteor) => (
-      <div 
-        key={meteor.id}
-        className="meteor animate-meteor"
-        style={{
-          width: `${meteor.size * 50}px`, // Width and height based on meteor size
-          height: `${meteor.size * 0.5}px`, // Width and height based on meteor size
-          left: `${meteor.x}%`, // Positioning based on random x and y
-          top: `${meteor.y}%`, // Positioning based on random x and y
-          animationDelay: meteor.delay, // Delay based on random value
-          animationDuration: `${meteor.animationDuration}s` // Animation duration based on random value
-        }}
-      />
-    ))}
-  </div>;
+      { meteors.map((meteor) => (
+        <div 
+          key={meteor.id}
+          className="meteor animate-meteor"
+          style={{
+            width: `${meteor.size * 50}px`, // Width and height based on meteor size
+            height: `${meteor.size * 0.5}px`, // Width and height based on meteor size
+            left: `${meteor.x}%`, // Positioning based on random x and y
+            top: `${meteor.y}%`, // Positioning based on random x and y
+            animationDelay: meteor.delay, // Delay based on random value
+            animationDuration: `${meteor.animationDuration}s` // Animation duration based on random value
+          }}
+        />
+      ))}
+    </div>
+  )
 }

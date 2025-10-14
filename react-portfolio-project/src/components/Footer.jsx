@@ -10,7 +10,7 @@ export const Footer = () => {
         className="p-3 rounded-full bg-secondary/30 hover:bg-secondary/50 transition-colors duration-500 ml-auto"
       >
         <span className="sr-only">Back to top</span>
-        <CircleArrowUp className="h-6 w-6 text-primary hover:text-primary/70 transition-colors duration-500" />
+        <CircleArrowUp className="h-10 w-10 text-primary hover:text-primary/70 transition-colors duration-500" />
       </a>
     </footer>
   )

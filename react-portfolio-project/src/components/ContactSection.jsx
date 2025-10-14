@@ -12,14 +12,12 @@ export const ContactSection = () => {
           Contact <span className="text-primary">Me</span>
         </h2>
 
-        <p className="text-center text-muted-foreground mb-12 ma-w-2xl mx-auto">
-          Interested in working together? Feel free to reach out below! I am currently open to new opportunities and collaborations.
+        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+          Interested in working together? Feel free to reach out below! <br/> I am currently open to new opportunities and collaborations.
         </p>
 
-        <div className="grid grid-cols-1 md-:grid-cols-2 gap-12">
+        <div className="flex mx-auto max-w-2xl flex-col items-center text-left">
           <div className="space-y-8">
-            <h3 className="text-2xl font-semibold mb-6"> Contact Info</h3>
-
             <div className="space-y-6 justify-center">
               
               {/* Email */}
@@ -67,7 +65,7 @@ export const ContactSection = () => {
             </div>
 
             {/* Social Media */}
-            <div className="pt-8">
+            <div className="pt-8 text-center">
               <h3 className="text-2xl font-medium mb-4"> Socials</h3>
               <div className="flex justify-center space-x-6">
                 <a 

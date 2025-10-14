@@ -1,9 +1,36 @@
 import { Send } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { useState } from "react";
+// import { useToast } from "@/hooks/use-toast" -- Mock setup for future use
 
 
 // TODO - IMPLEMENT - Message card component for displaying individual messages in the contact section --- Maybe in the future?
+
+//? Noting this would use React Toast for success/failure messages on submission
 export const MessageCard = () => {
+  // const { toast } = useToast(); -- Mock setup for future use
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    setIsSubmitting(true); // Indicate form is submitting
+    
+    // Handle form submission logic here (e.g., send data to an API or email service)
+    setTimeout(() => {
+      // toast({
+      //   title: "Success",
+      //   description: "Your message has been sent.",
+      //   variant: "success",
+      // });
+      console.log("Form submitted");
+    }, 2000); // Simulate a network request
+
+    setIsSubmitting(false); // Reset submitting state
+  };
+  
   return (
     <section>
       {/* Contact Form - To be implemented */}
@@ -63,7 +90,9 @@ export const MessageCard = () => {
           </div>
 
           <button 
-            type="submit" 
+            type="submit"
+            disabled={isSubmitting}
+            onClick={handleSubmit} 
             className={cn(
               "cosmic-button w-full flex items-center justify-center gap-2",
 

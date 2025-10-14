@@ -73,9 +73,9 @@
   :root {
     --background: 210 40% 98%;
     --foreground: 222 47% 11%;
-    --card: 0 0% 100%;
+    --card: 0 20% 100%;
     --border: 214 32% 91%;
-    --primary: 250 47% 60%;
+    --primary: 243 90% 60%;
     --primary-foreground: 210 40% 98%;
   }
 
@@ -84,8 +84,8 @@
     --background: 222 47% 4%;
     --foreground: 213 31% 91%;
     --card: 222 47% 8%;
-    --border: 217 33% 20%;
-    --primary: 250 65% 65%;
+    --border: 210 33% 30%;
+    --primary: 243 100% 58%;
     --primary-foreground: 213 31% 91%;
   }
 

@@ -18,7 +18,7 @@ export const HeroSection = () => {
         
         <h2 className="text-2xl md:text-3xl font-bold my-10 text-glow">Welcome to My Portfolio</h2>
 
-        <p className="text-lg md:text-xl mb-8 text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">I'm a full stack web developer that previously specialized in maintaining code. I love working in both a larger collaborative environment as well as just off to the side, in my own little playground. Peep my projects and learn more about me below. Thanks for stopping by!</p>
+        <p className="text-lg md:text-xl mb-8 text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">I'm a SoCal based full stack web developer that specializes in maintaining code. I love working in both a larger collaborative environment as well as just off to the side, in my own little playground. Peep my projects and learn more about me below. Thanks for stopping by!</p>
 
         <div className="pt-4 opacity-0 animate-fade-in-delay-4">
           <a 

@@ -2,6 +2,7 @@ import { ThemeToggle } from "../components/ThemeToggle"
 import { SpaceBackground } from "../components/SpaceBackground"
 import { NavBar } from "../components/NavBar"
 import { HeroSection } from "../components/HeroSection"
+import { AboutSection } from "../components/AboutSection"
 // import { DayTimeBackground } from "../components/DayTimeBackground"
 
 export const Home = () => {
@@ -21,6 +22,7 @@ export const Home = () => {
     {/* Main Content */}
     <main>
       <HeroSection />
+      <AboutSection />
     </main>
 
     {/* Footer */}

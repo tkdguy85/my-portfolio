@@ -6,6 +6,7 @@ import { AboutSection } from "../components/AboutSection"
 import { SkillsSection } from "../components/SkillsSection"
 import { ProjectSection } from "../components/ProjectSection"
 import { ContactSection } from "../components/ContactSection"
+import { Footer } from "../components/Footer"
 // import { DayTimeBackground } from "../components/DayTimeBackground"
 
 export const Home = () => {
@@ -32,5 +33,6 @@ export const Home = () => {
     </main>
 
     {/* Footer */}
+    <Footer />
   </div>
 }

@@ -1,8 +1,6 @@
 @import "tailwindcss";
 
 
-/* TODO - Update Theme and Colors to my liking */
-
 @theme {
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
@@ -68,7 +66,6 @@
 }
 
 @layer base {
-  /* TODO - Convert these to RGB or HEX */
   /* Base Scheme */
   :root {
     --background: 214, 64%, 94%;
@@ -147,7 +144,6 @@
 
 @utility gradient-border {
   @apply relative rounded-md;
-  /* TODO - Update gradient colors to RGB  */
   background: linear-gradient(to right, hsl(var(--card)), hsl(var(--card)));
   background-clip: padding-box;
   border: 1px solid transparent;
@@ -165,6 +161,6 @@
 
 /* Meteor Effect */
 @utility meteor {
-  @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full; /* Gradient effect for the meteor tail */
+  @apply absolute bg-linear-to-r from-white via-yellow-300 to-transparent rounded-full; /* Gradient effect for the meteor tail */
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
 }

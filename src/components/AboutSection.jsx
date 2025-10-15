@@ -79,7 +79,6 @@ export const AboutSection = () => {
               I'm just a chill developer with a love for all things code, functional web applications, and just trying my best to make my little corner of the internet a better place. My journey in tech began with a curiosity for how things work and has since evolved into a full-fledged career.
             </p>
 
-            {/* TODO - Add more details about my skills and experience */}
             <p className="text-lg text-muted-foreground pt-8">
               I enjoy working in both front-end and back-end environments. In my most recent role, I was responsible for maintaining and enhancing over 90+ existing codebases. Some monolithic Rails, some with a headless CMS and VueJS front ends, and many things in between.
             </p> 
@@ -96,10 +95,7 @@ export const AboutSection = () => {
               >Download My CV</a>
             </div>
           </div>
-
-
         </div>
-
       </div>
     </section>
   );

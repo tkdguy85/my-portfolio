@@ -1,6 +1,5 @@
 import { Code, CodeXml, Waypoints, Guitar } from "lucide-react";
 
-// TODO - UPDATE - Add more personal details, skills, and experience
 
 export const AboutSection = () => {
   return (
@@ -83,7 +82,7 @@ export const AboutSection = () => {
               I enjoy working in both front-end and back-end environments. In my most recent role, I was responsible for maintaining and enhancing over 90+ existing codebases. Some monolithic Rails, some with a headless CMS and VueJS front ends, and many things in between.
             </p> 
             <p className="text-lg text-muted-foreground pt-8">
-              Working with fellow developers, designers, and project managers to deliver high-quality solutions that meet client needs is something I truly enjoy. I'm also the sole builder and maintainer of a very special to me site built for my lovely wife's voiceover business, which you can check out <a href="https://www.salenamvo.com" className="text-primary underline" target="_blank" rel="noopener noreferrer">here</a>.
+              Working with fellow developers, designers, and project managers to deliver high-quality solutions that meet client needs is something I truly enjoy. I'm also the sole builder and maintainer of a very special to me site built for my lovely wife's voiceover business, which you can check out <a href="https://salenamvo.com" className="text-primary underline" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-10 justify-center">

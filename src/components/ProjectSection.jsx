@@ -77,7 +77,7 @@ export const ProjectSection = () => {
           My <span className="text-primary">Projects</span>
         </h2>
 
-        <p className="mb-12 text-center mx-auto max-w-2xl">Here are a few projects I've worked on recently. Want to see more?</p>
+        <p className="mb-12 text-center mx-auto max-w-2xl">Here's a snippet of some of the projects I worked on during my tenure with <a href="https://www.wearefine.com/" className="text-primary font-bold text-muted-foreground" target="_blank" rel="noopener noreferrer">FINE</a>.</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           { projects.map((project) => (

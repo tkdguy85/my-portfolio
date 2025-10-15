@@ -1,4 +1,4 @@
-import { Code, CodeXml, Waypoints } from "lucide-react";
+import { Code, CodeXml, Waypoints, Guitar } from "lucide-react";
 
 // TODO - UPDATE - Add more personal details, skills, and experience
 
@@ -56,18 +56,35 @@ export const AboutSection = () => {
                 </div>
               </div>
             </div>
+
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Guitar className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="text-lg font-semibold mb-1">Hobbies</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Guitars, Aviation, Space tech, Hiking, Nature & Astrophotography, PC/Console Gaming, All things science, Geography, Long walks on the beach...
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           
           {/* About Me */}
           <div>
             <h3 className="text-2xl font-semibold mb-2">Full Stack Developer</h3>
             <p className="text-lg text-muted-foreground">
-              I'm just a chill developer with a love for all things code, functional web applications, and just trying my best to make my little corner of the internet a better place. My journey in tech started with a curiosity for how things work, and it has evolved into a full-fledged career.
+              I'm just a chill developer with a love for all things code, functional web applications, and just trying my best to make my little corner of the internet a better place. My journey in tech began with a curiosity for how things work and has since evolved into a full-fledged career.
             </p>
 
             {/* TODO - Add more details about my skills and experience */}
             <p className="text-lg text-muted-foreground pt-8">
-              I specialize in both front-end and back-end development. In my most recent role, I was responsible for maintaining and enhancing over 90+ existing codebases. Some monolithic Rails, some with a headless CMS and VueJS front ends, and many things in between.
+              I enjoy working in both front-end and back-end environments. In my most recent role, I was responsible for maintaining and enhancing over 90+ existing codebases. Some monolithic Rails, some with a headless CMS and VueJS front ends, and many things in between.
+            </p> 
+            <p className="text-lg text-muted-foreground pt-8">
+              Working with fellow developers, designers, and project managers to deliver high-quality solutions that meet client needs is something I truly enjoy. I'm also the sole builder and maintainer of a very special to me site built for my lovely wife's voiceover business, which you can check out <a href="https://www.salenamvo.com" className="text-primary underline" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-10 justify-center">

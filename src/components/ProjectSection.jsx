@@ -86,11 +86,18 @@ export const ProjectSection = () => {
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover h-full flex flex-col"
             >
               <div className="h-48 overflow-hidden">
-                <img 
-                  src={project.image} 
-                  alt={project.name} 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
+                {(() => {
+                  // Ensure public images respect Vite's base (useful when base !== '/')
+                  const imgPath = project.image?.startsWith('/') ? project.image.slice(1) : project.image
+                  const imageSrc = `${import.meta.env.BASE_URL || '/'}${imgPath}`
+                  return (
+                    <img
+                      src={imageSrc}
+                      alt={project.name}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    />
+                  )
+                })()}
               </div>
               
               <div className="p-6 flex flex-col flex-1">

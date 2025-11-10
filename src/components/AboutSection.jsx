@@ -21,7 +21,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="text-lg font-semibold mb-1">Front End Tech</h4>
                   <p className="text-sm text-muted-foreground">
-                    JavaScript, VueJS, React, HTML, CSS/SASS, Tailwind CSS and more.
+                    JavaScript, VueJS, React, Django, HTML, CSS/SASS, Tailwind CSS and more.
                   </p>
                 </div>
               </div>
@@ -35,7 +35,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="text-lg font-semibold mb-1">Back End Tech</h4>
                   <p className="text-sm text-muted-foreground">
-                    <a className="text-primary underline" href="https://fae-cms.com" target="_blank" rel="noopener noreferrer">FAE CMS *</a>, Ruby on Rails, NodeJS, Docker, PostgreSQL, MariaDB, Python3 and more.
+                    <a className="text-primary underline" href="https://fae-cms.com" target="_blank" rel="noopener noreferrer">FAE CMS *</a>, Ruby on Rails, Python3, NodeJS, Docker, PostgreSQL, MariaDB, GraphQL and more.
                   </p>
                   <p className="text-xs text-muted-foreground pt-4">* FAE CMS is an open source CMS framework developed by the magical folks over at <a href="https://https://www.wearefine.com/" className="text-primary underline" target="_blank" rel="noopener noreferrer">FINE</a>.</p>
                 </div>
@@ -50,7 +50,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="text-lg font-semibold mb-1">Collaboration Tools</h4>
                   <p className="text-sm text-muted-foreground">
-                    Git/GitHub, Docker, JIRA, FIGMA, Slack, Zoom, KanBan and more.
+                    Git/GitHub, Docker, JIRA, Jenkins, FIGMA, Slack, CI/CD tooling, Co-Pilot, Zoom, KanBan and more.
                   </p>
                 </div>
               </div>
@@ -64,7 +64,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="text-lg font-semibold mb-1">Hobbies</h4>
                   <p className="text-sm text-muted-foreground">
-                    Guitars, Aviation, Space tech, Hiking, Nature & Astrophotography, PC/Console Gaming, All things science, Geography, Long walks on the beach...
+                    Guitars, Aviation, Space tech, Hiking, Nature & Astrophotography, PC/Console Gaming, Martial Arts, Gymnastics, All things science, Geography, Dolphin spotting, Birdwatching, Long walks on the beach...
                   </p>
                 </div>
               </div>

@@ -24,7 +24,7 @@ export const SpaceBackground = () => {
     for (let star = 0; star < numOfStars; star++) {
       newStars.push({ 
         id: star, // Unique identifier for each star
-        size: Math.random() * 3 + 1, // Random size between 1 and 4
+        size: Math.random() * 2 + 1, // Random size between 1 and 4
         x: Math.random() * 100, // Random x position
         y: Math.random() * 100, // Random y position
         opacity: Math.random() * 0.5 + 0.5, // Random opacity between 0.5 and 1,
@@ -37,15 +37,15 @@ export const SpaceBackground = () => {
 
   // Create meteors at random intervals
   const createMeteors = () => {
-    const numOfMeteors = 5; // Sets number of meteors
+    const numOfMeteors = 3; // Sets number of meteors
     const newMeteors = [];
 
     for (let meteor = 0; meteor < numOfMeteors; meteor++) {
       newMeteors.push({ 
         id: meteor, // Unique identifier for each meteor
-        size: Math.random() * 5 + 1, // Random size between 1 and 4
+        size: Math.random() * 3 + 1, // Random size between 1 and 4
         x: Math.random() * 100, // Random x position
-        y: Math.random() * 20, // Random y position
+        y: Math.random() * 50, // Random y position
         delay: Math.random() * 15, // Random delay between 0.5 and 1
         animationDuration: Math.random() * 3 + 3 // Random animation duration between 2 and 5 seconds
       });

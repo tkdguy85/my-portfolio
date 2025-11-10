@@ -1,1 +1,0 @@
-// TODO - Implement a dynamic, cloudy background for the daytime theme

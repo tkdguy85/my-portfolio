@@ -50,7 +50,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="text-lg font-semibold mb-1">Collaboration Tools</h4>
                   <p className="text-sm text-muted-foreground">
-                    Git/GitHub, Docker, JIRA, Jenkins, FIGMA, Slack, CI/CD tooling, Co-Pilot, Zoom, KanBan and more.
+                    Git/GitHub, Docker, JIRA, Jenkins, FIGMA, Slack, CI/CD tooling, Co-Pilot, Claude, Zoom, KanBan and more.
                   </p>
                 </div>
               </div>
@@ -75,7 +75,7 @@ export const AboutSection = () => {
           <div>
             <h3 className="text-2xl font-semibold mb-2">Full Stack Developer</h3>
             <p className="text-lg text-muted-foreground">
-              I'm just a chill developer with a love for all things code, functional web applications, and just trying my best to make my little corner of the internet a better place. My journey in tech began with a curiosity for how things work and has since evolved into a full-fledged career.
+              I'm a chill developer with a love for all things code, functional and accessible web applications, and just trying my best to make my little corner of the internet a better place. My journey in tech began with a curiosity for how things work and has since evolved into a full-fledged career.
             </p>
 
             <p className="text-lg text-muted-foreground pt-8">

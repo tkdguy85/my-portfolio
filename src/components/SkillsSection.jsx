@@ -19,6 +19,7 @@ const skills = [
   { name: 'FAE CMS', years: 5, category: ['Backend', 'Career'], proficiency: 80 },
   { name: 'Git/GitHub', years: 6, category: ['Tools', 'DevOps', 'Career', 'Hobby'], proficiency: 90 },
   { name: 'NodeJS', years: 4, category: ['Backend', 'Career'], proficiency: 60 },
+  { name: 'Render', years: 4, category: ['Backend', 'Career'], proficiency: 60 },
   { name: 'Sanity.io', years: 1, category: ['Backend', 'Hobby'], proficiency: 50 },
   { name: 'PostgreSQL', years: 5, category: ['Backend', 'Career'], proficiency: 70 },
   { name: 'MariaDB', years: 5, category: ['Backend', 'Career'], proficiency: 75 },
@@ -29,6 +30,7 @@ const skills = [
   { name: 'VS Code', years: 6, category: ['Tools', 'Career', 'Hobby'], proficiency: 95 },
   { name: 'Netlify', years: 4, category: ['DevOps', 'Career'], proficiency: 70 },
   { name: 'Slack', years: 5, category: ['Tools', 'Career'], proficiency: 95 },
+  { name: 'iTerm', years: 5, category: ['Tools', 'Career', 'Hobby'], proficiency: 80 },
   { name: 'Linux', years: 3, category: ['DevOps', 'Hobby'], proficiency: 60 },
   { name: 'Jenkins', years: 5, category: ['DevOps', 'Career'], proficiency: 80 },
   { name: 'Trello', years: 2, category: ['Tools', 'Hobby', 'Career'], proficiency: 80 },
@@ -48,8 +50,8 @@ export const SkillsSection = () => {
   const [activeSkill, setActiveSkill] = useState("all");
   const filteredSkills = skills.filter((skill) => {
     if (activeSkill === 'all') return true; // Show all skills if 'all' is selected
-    const cats = Array.isArray(skill.category) ? skill.category : [skill.category]; // Ensure category is an array
-    return cats.includes(activeSkill); // Check if skill belongs to active category
+    const cat = Array.isArray(skill.category) ? skill.category : [skill.category]; // Ensure category is an array
+    return cat.includes(activeSkill); // Check if skill belongs to active category
   });
 
   return (
@@ -103,7 +105,7 @@ export const SkillsSection = () => {
 
               {/* Proficiency Percentage */}
               <div className="text-right text-sm text-muted-foreground mt-2">
-                usage - {skill.proficiency}%
+                proficiency - {skill.proficiency}%
               </div>
             </div>
           ))}

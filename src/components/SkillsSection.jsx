@@ -29,7 +29,7 @@ const skills = [
   { name: 'VS Code', years: 6, category: ['Tools', 'Career', 'Hobby'], proficiency: 95 },
   { name: 'Netlify', years: 4, category: ['DevOps', 'Career'], proficiency: 70 },
   { name: 'Slack', years: 5, category: ['Tools', 'Career'], proficiency: 95 },
-  { name: 'Linux', years: 2, category: ['DevOps', 'Hobby'], proficiency: 60 },
+  { name: 'Linux', years: 3, category: ['DevOps', 'Hobby'], proficiency: 60 },
   { name: 'Jenkins', years: 5, category: ['DevOps', 'Career'], proficiency: 80 },
   { name: 'Trello', years: 2, category: ['Tools', 'Hobby', 'Career'], proficiency: 80 },
   { name: 'Notion', years: 5, category: ['Tools', 'Hobby', 'Career'], proficiency: 90 },

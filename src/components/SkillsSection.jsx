@@ -5,7 +5,7 @@ const skills = [
   // FRONTEND
   { name: 'JavaScript', years: 6, category: ['Frontend', 'Career', 'Hobby'], proficiency: 80 },
   { name: 'VueJS', years: 6, category: ['Frontend', 'Career', 'Hobby'], proficiency: 85 },
-  { name: 'React', years: 3, category: ['Frontend', 'Hobby'], proficiency: 70 },
+  { name: 'React', years: 4, category: ['Frontend', 'Career', 'Hobby'], proficiency: 70 },
   { name: 'HTML5', years: 6, category: ['Frontend', 'Career', 'Hobby'], proficiency: 90 },
   { name: 'CSS3 - SCSS - SASS', years: 6, category: ['Frontend', 'Career', 'Hobby'], proficiency: 90 },
   { name: 'Tailwind CSS', years: 4, category: ['Frontend', 'Career'], proficiency: 75 },
@@ -26,18 +26,18 @@ const skills = [
   { name: 'Docker', years: 4, category: ['DevOps', 'Career'], proficiency: 65 },
 
   // TOOLS
-  { name: 'VSCode', years: 6, category: ['Tools', 'Career', 'Hobby'], proficiency: 95 },
+  { name: 'VS Code', years: 6, category: ['Tools', 'Career', 'Hobby'], proficiency: 95 },
   { name: 'Netlify', years: 4, category: ['DevOps', 'Career'], proficiency: 70 },
   { name: 'Slack', years: 5, category: ['Tools', 'Career'], proficiency: 95 },
   { name: 'Linux', years: 2, category: ['DevOps', 'Hobby'], proficiency: 60 },
-  { name: 'Jenkins', years: 4, category: ['DevOps', 'Career'], proficiency: 80 },
+  { name: 'Jenkins', years: 5, category: ['DevOps', 'Career'], proficiency: 80 },
   { name: 'Trello', years: 2, category: ['Tools', 'Hobby', 'Career'], proficiency: 80 },
   { name: 'Notion', years: 5, category: ['Tools', 'Hobby', 'Career'], proficiency: 90 },
   { name: 'Zoom', years: 6, category: ['Tools', 'Hobby', 'Career'], proficiency: 85 },
   { name: 'JIRA', years: 3, category: ['Tools', 'Hobby', 'Career'], proficiency: 90 },
   { name: 'FIGMA', years: 5, category: ['Tools', 'Hobby'], proficiency: 85 },
   { name: 'AWS', years: 2, category: ['DevOps', 'Career'], proficiency: 60 },
-  { name: 'Vercel', years: 1, category: ['DevOps', 'Career'], proficiency: 50 },
+  { name: 'Cloudflare', years: 3, category: ['DevOps', 'Career'], proficiency: 70 },
 ]
 
 const categories = [
@@ -69,9 +69,8 @@ export const SkillsSection = () => {
           { categories.map((category, key) => (
             <button
               key={key}
-              className={cn(
-                "px-5 py-2 rounded-full transition-colors duration-500 capitalize",
-                 activeSkill === category ? "bg-primary text-primary-foreground" : "bg-secondary/70 text-foreground hover:bg-primary/80 hover:text-primary-foreground"
+              className={ cn (
+                "px-5 py-2 rounded-full transition-colors duration-500 capitalize",activeSkill === category ? "bg-primary text-primary-foreground" : "bg-secondary/70 text-foreground hover:bg-primary/80 hover:text-primary-foreground"
               )}
               onClick={() => setActiveSkill(category)}
             >

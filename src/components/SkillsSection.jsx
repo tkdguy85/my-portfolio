@@ -6,8 +6,8 @@ const skills = [
   { name: 'JavaScript', years: 6, category: ['Frontend', 'Career', 'Hobby'], proficiency: 80 },
   { name: 'VueJS', years: 6, category: ['Frontend', 'Career', 'Hobby'], proficiency: 85 },
   { name: 'React', years: 4, category: ['Frontend', 'Career', 'Hobby'], proficiency: 70 },
-  { name: 'HTML5', years: 6, category: ['Frontend', 'Career', 'Hobby'], proficiency: 90 },
-  { name: 'CSS3 - SCSS - SASS', years: 6, category: ['Frontend', 'Career', 'Hobby'], proficiency: 90 },
+  { name: 'HTML5', years: 6, category: ['Frontend', 'Career', 'Hobby'], proficiency: 95 },
+  { name: 'CSS3 - SCSS - SASS', years: 6, category: ['Frontend', 'Career', 'Hobby'], proficiency: 95 },
   { name: 'Tailwind CSS', years: 4, category: ['Frontend', 'Career'], proficiency: 75 },
   { name: 'TypeScript', years: 4, category: ['Frontend', 'Career'], proficiency: 65 },
   { name: 'Gatsby', years: 1, category: ['Frontend', 'Hobby'], proficiency: 30 },
@@ -15,7 +15,7 @@ const skills = [
 
   // BACKEND
   { name: 'Ruby on Rails', years: 5, category: ['Backend', 'Career'], proficiency: 80 },
-  { name: 'Python3', years: 3, category: ['Backend', 'Hobby'], proficiency: 40 },
+  { name: 'Python3', years: 4, category: ['Backend', 'Hobby'], proficiency: 75 },
   { name: 'FAE CMS', years: 5, category: ['Backend', 'Career'], proficiency: 80 },
   { name: 'Git/GitHub', years: 6, category: ['Tools', 'DevOps', 'Career', 'Hobby'], proficiency: 90 },
   { name: 'NodeJS', years: 4, category: ['Backend', 'Career'], proficiency: 60 },
@@ -24,11 +24,11 @@ const skills = [
   { name: 'PostgreSQL', years: 5, category: ['Backend', 'Career'], proficiency: 70 },
   { name: 'MariaDB', years: 5, category: ['Backend', 'Career'], proficiency: 75 },
   { name: 'MySQL', years: 5, category: ['Backend', 'Career'], proficiency: 75 },
-  { name: 'Docker', years: 4, category: ['DevOps', 'Career'], proficiency: 65 },
+  { name: 'Docker', years: 4, category: ['DevOps', 'Career'], proficiency: 70 },
 
   // TOOLS
   { name: 'VS Code', years: 6, category: ['Tools', 'Career', 'Hobby'], proficiency: 95 },
-  { name: 'Netlify', years: 4, category: ['DevOps', 'Career'], proficiency: 70 },
+  { name: 'Netlify', years: 5, category: ['DevOps', 'Career'], proficiency: 70 },
   { name: 'Slack', years: 5, category: ['Tools', 'Career'], proficiency: 95 },
   { name: 'iTerm', years: 5, category: ['Tools', 'Career', 'Hobby'], proficiency: 80 },
   { name: 'Linux', years: 3, category: ['DevOps', 'Hobby'], proficiency: 60 },
@@ -37,9 +37,10 @@ const skills = [
   { name: 'Notion', years: 5, category: ['Tools', 'Hobby', 'Career'], proficiency: 90 },
   { name: 'Zoom', years: 6, category: ['Tools', 'Hobby', 'Career'], proficiency: 85 },
   { name: 'JIRA', years: 3, category: ['Tools', 'Hobby', 'Career'], proficiency: 90 },
+  { name: 'Redmine', years: 5, category: ['Tools', 'Hobby', 'Career'], proficiency: 90 },
   { name: 'FIGMA', years: 5, category: ['Tools', 'Hobby'], proficiency: 85 },
   { name: 'AWS', years: 2, category: ['DevOps', 'Career'], proficiency: 60 },
-  { name: 'Cloudflare', years: 3, category: ['DevOps', 'Career'], proficiency: 70 },
+  { name: 'Cloudflare', years: 4, category: ['DevOps', 'Career'], proficiency: 70 },
 ]
 
 const categories = [

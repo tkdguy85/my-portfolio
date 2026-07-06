@@ -18,39 +18,39 @@ export const ContactSection = () => {
 
         <div className="flex mx-auto max-w-2xl flex-col items-center text-left">
           <div className="space-y-8">
-            <div className="space-y-6 justify-center">
+            <div className="space-y-6 flex flex-col">
               
               {/* Email */}
-              <div className="flex items-start space-x-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Mail className="h-6 w-6 text-primary" />
+              <a 
+                href="mailto:dallasgordon3@gmail.com" 
+                className="text-muted-foreground hover:text-primary transition-colors duration-500"
+              >
+                <div className="flex items-start space-x-4">
+                  <div className="p-3 rounded-full bg-primary/10">
+                    <Mail className="h-6 w-6 text-primary" />
+                  </div>
+                  <div>
+                    <h4 className="font-medium">EMAIL:</h4>
+                    <p>dallasgordon3@gmail.com</p>
+                  </div>
                 </div>
-                <div>
-                  <h4 className="font-medium">Email</h4>
-                  <a 
-                    href="mailto:dallasgordon3@gmail.com" 
-                    className="text-muted-foreground hover:text-primary transition-colors duration-500"
-                  >
-                    dallasgordon3@gmail.com
-                  </a>
-                </div>
-              </div>
+              </a>
               
               {/* Phone */}
-              <div className="flex items-start space-x-4">            
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Phone className="h-6 w-6 text-primary" />
-                </div>        
-                <div>
-                  <h4 className="font-medium">Phone</h4>
-                  <a 
-                    href="tel:+17087693893" 
-                    className="text-muted-foreground hover:text-primary transition-colors duration-500"
-                  >
-                    +1 (708) 769-3893
-                  </a>
+              <a 
+                href="tel:+17087693893" 
+                className="text-muted-foreground hover:text-primary transition-colors duration-500"
+              >
+                <div className="flex items-start space-x-4">            
+                  <div className="p-3 rounded-full bg-primary/10">
+                    <Phone className="h-6 w-6 text-primary" />
+                  </div>        
+                  <div>
+                    <h4 className="font-medium">PHONE:</h4>
+                      +1 (708) 769-3893
+                  </div>
                 </div>
-              </div>
+              </a>
 
               {/* Location */}
               <div className="flex items-start space-x-4">
@@ -58,8 +58,8 @@ export const ContactSection = () => {
                   <MapPin className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-medium">Location</h4>
-                  <p className="text-muted-foreground">Oceanside, CA, 92056 USA</p>
+                  <h4 className="font-medium">LOCATION:</h4>
+                  <p className="text-muted-foreground">Oceanside, CA, USA 92056</p>
                 </div>
               </div>              
             </div>

@@ -88,7 +88,7 @@ export const AboutSection = () => {
             <div className="flex flex-col sm:flex-row gap-4 pt-10 justify-center">
               <a href="#projects" className="cosmic-button">Check out my work</a>
               <a 
-                href="/my-portfolio/dallas-gordon-developer-resume.pdf" 
+                href="/my-portfolio/dallas_gordon_developer_resume.pdf" 
                 target="_blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/30 transition-colors duration-500"
               >Download My CV</a>

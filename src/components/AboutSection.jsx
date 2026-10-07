@@ -21,7 +21,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="text-lg font-semibold mb-1">Front End Tech</h4>
                   <p className="text-sm text-muted-foreground">
-                    JavaScript, VueJS, React, Django, HTML, CSS/SASS, Tailwind CSS and more.
+                    JavaScript, TypeScript, VueJS, React, Django, HTML, CSS/SASS, Tailwind CSS and more.
                   </p>
                 </div>
               </div>
@@ -50,7 +50,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="text-lg font-semibold mb-1">Collaboration Tools</h4>
                   <p className="text-sm text-muted-foreground">
-                    Git/GitHub, Docker, JIRA, Jenkins, FIGMA, Slack, CI/CD tooling, Co-Pilot, Claude, Zoom, KanBan and more.
+                    Git/GitHub, Docker, JIRA, Jenkins, FIGMA, Slack, CI/CD tooling, Co-Pilot, Claude, Cursor, Zoom, KanBan and more.
                   </p>
                 </div>
               </div>
